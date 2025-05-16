@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADEL COIN</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #111827;
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      width: 100%;
+      background-color: #1f2937;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #a1a1aa;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    }
+
+    .container {
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .idol-gif {
+      width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 9999px;
+      box-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .start-button {
+      display: inline-block;
+      background-color: #ec4899;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 9999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .start-button:hover {
+      background-color: #be185d;
+    }
+
+    .tokenomics {
+      margin-top: 40px;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+      padding: 20px;
+    }
+
+    .tokenomics img {
+      border-radius: 12px;
+      max-width: 90%;
+      width: 100%;
+      height: auto;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <audio id="bgm" autoplay loop>
+    <source src="bgm.mp3" type="audio/mpeg" />
+  </audio>
+</head>
+<body>
+  <!-- Navbar Dev Info -->
+  <div class="navbar">
+    Development by Zami
+  </div>
+
+  <div class="container">
+    <img src="logo.png" class="idol-gif" alt="Adel" />
+    <h1 class="title">Bagai kucing yang kalem tetapi akan selalu memikat hati kamu.<br>Halo semuanya, aku Adel.</h1>
+    <a href="beranda.html" class="start-button">Mulai</a>
+  </div>
+
+  <!-- Tokenomics Image -->
+  <div class="tokenomics">
+    <h2 class="text-xl font-semibold mb-4">Tokenomics ADEL COIN</h2>
+    <img src="tokenomics.png" alt="Tokenomics ADEL COIN" />
+  </div>
+</body>
+</html>
